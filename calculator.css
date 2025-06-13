@@ -1,0 +1,59 @@
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(to right, rgb(249, 238, 240), rgb(89, 89, 97));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.container {
+  display: grid;
+  background-image: linear-gradient(to left, rgb(220, 212, 213), rgb(116, 116, 124));
+  border-radius: 30px;
+  padding: 15px;
+  width: fit-content;
+  gap: 5px;
+}
+
+button {
+  font-size: 25px;
+  background-color: rgb(100, 95, 95);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 50%;
+  margin: 2px;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  transition: transform 0.1s;
+  cursor: pointer;
+  border: none;
+}
+
+.header {
+  background: rgb(93, 92, 92);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.display {
+  font-size: 30px;
+  margin: 10px;
+  color: rgb(60, 56, 56);
+  background-color: rgb(214, 214, 214);
+  border-radius: 10px;
+  padding: 10px;
+}
+
